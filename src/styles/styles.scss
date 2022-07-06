@@ -1,0 +1,37 @@
+$leftMargin:30%;
+$rightMargin:10%;
+$topMargin:10%;
+$backgroundColor:rgb(161, 221, 221);
+$mediumDivWidth:30%;
+$borderRadius:10px;
+$divWidth:98%;
+$border:2px solid black;
+$centerTextAlign:center;
+$cellWidth:300px;
+$cellSpacing:0;
+
+body{
+    background-color: $backgroundColor;
+}
+
+.login-div{
+    margin: $topMargin $leftMargin $rightMargin;
+    width: $mediumDivWidth;
+    border-radius: $borderRadius;
+}
+
+.results-div{
+    width:$divWidth;
+    margin-top: $topMargin;
+}
+
+table{
+    width: max-content;
+    border: $border;
+}
+
+td,tr{
+    width: $cellWidth;
+    border:$border;
+    padding: 0;
+}
